@@ -165,3 +165,6 @@ F:\Study\Projects\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protoco
 F:\Study\Projects\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 F:\study\projects\DatingApp\API\bin\Debug\net8.0\Data\UserSeedData.json
 F:\study\projects\DatingApp\API\bin\Debug\net8.0\AutoMapper.dll
+F:\study\projects\DatingApp\API\obj\Debug\net8.0\API.sourcelink.json
+F:\study\projects\DatingApp\API\bin\Debug\net8.0\CloudinaryDotNet.dll
+F:\study\projects\DatingApp\API\bin\Debug\net8.0\Newtonsoft.Json.dll

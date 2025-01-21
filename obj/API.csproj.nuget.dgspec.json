@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\study\\projects\\DatingApp\\API\\API.csproj": {}
+    "F:\\Study\\Projects\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "F:\\study\\projects\\DatingApp\\API\\API.csproj": {
+    "F:\\Study\\Projects\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\study\\projects\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "F:\\Study\\Projects\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "F:\\study\\projects\\DatingApp\\API\\API.csproj",
+        "projectPath": "F:\\Study\\Projects\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "F:\\study\\projects\\DatingApp\\API\\obj\\",
+        "outputPath": "F:\\Study\\Projects\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
