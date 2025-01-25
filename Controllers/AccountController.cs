@@ -26,14 +26,15 @@ public class AccountController(DataContext context,ITokenService tokenService ,I
         user.PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password));
         user.PasswordSalt = hmac.Key;
         
-        context.Add(user);
+        context.Users.Add(user);
         await context.SaveChangesAsync();
         
         return new UserDto
         {
             Username = user.UserName,
             Token  = tokenService.CreateToken(user),
-            KnownAs=user.KnownAs
+            KnownAs=user.KnownAs,
+            Gender=user.Gender,
         };  
     }
 
@@ -53,7 +54,8 @@ public class AccountController(DataContext context,ITokenService tokenService ,I
             Username = user.UserName,
             KnownAs=user.KnownAs,
             Token  = tokenService.CreateToken(user),
-            PhotoUrl=user.Photos.FirstOrDefault(x=>x.IsMain)?.Url
+            Gender = user.Gender,
+            PhotoUrl=user.Photos.FirstOrDefault(x=>x.IsMain)?.Url,
         };  
     }
     
